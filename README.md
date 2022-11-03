@@ -29,8 +29,6 @@ API: [API scrapper Bot](https://t.me/USETGSBOT) or [Telegram.org](https://my.tel
 
 PYROGRAM SESSION: [SessionGen Bot](https://t.me/SessionStringGeneratorZBot) or [![Run on Repl.it](https://replit.com/badge/github/vasusen-code/saverestrictedcontentbot)](https://replit.com/@SpEcHiDe/GenerateStringSession)
 
-BOT TOKEN: @Botfather on telegram
-
 # Deploy
 
 Deploy your bot on `Render`
