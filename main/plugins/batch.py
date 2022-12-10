@@ -22,9 +22,7 @@ from pyrogram.errors import FloodWait
 from ethon.pyfunc import video_metadata
 from ethon.telefunc import force_sub
 
-ft = f"To use this bot you've to join @{fs}.<br/> Do Not Spam.
-Do not Abuse this Free Service
-No Adult🔞 Content is Allowed❌"
+ft = f"To use this bot you've to join @{fs}.<br/> Do Not Spam"
 
 batch = []
 
