@@ -47,5 +47,5 @@ async def start(event):
     text = "Send me Link of any message to clone it here, For private channel message, send invite link first, Do Not Spam."
 #    await start_srb(event, text)
     await event.reply(st, 
-                      buttons=[[Button.url("DEV", url="t.me/MaheshChauhan")]])
+                      buttons=[Button.url("DEV", url="t.me/MaheshChauhan")])
     
