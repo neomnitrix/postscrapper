@@ -6,7 +6,7 @@ from telethon import events, Button
 # changes
 #from ethon.mystarts import start_srb
     
-#S = '/' + 's' + 't' + 'a' + 'r' + 't'
+S = '/' + 's' + 't' + 'a' + 'r' + 't'
 
 @Drone.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
@@ -40,11 +40,16 @@ async def remt(event):
         os.remove(f'{event.sender_id}.jpg')
         await event.edit('Removed!')
     except Exception:
-        await event.edit("No thumbnail saved.")                        
+        await event.edit("No thumbnail saved.") 
+        
+        
   
-"""@Drone.on(events.NewMessage(incoming=True, pattern=f"{S}"))
+  
+@Drone.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
     text = "Send me Link of any message to clone it here, For private channel message, send invite link first, Do Not Spam."
-    await start_srb(event, text)"""
+    await start_srb(event, text)
 
-    
+async def start_srb(event, st):
+    await event.reply(st, 
+                      buttons=[[Button.url("DEV", url="t.me/MaheshChauhan")]]) 
