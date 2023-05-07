@@ -68,7 +68,7 @@ async def _batch(event):
             except ValueError:
                 return await conv.send_message("Range must be an integer!")
             if s != True:
-                await conv.send_message(r)
+                await conv.send_message("Batch Command Started")
                 return
             batch.append(f'{event.sender_id}')
             batch_.append(f'{event.sender_id}')
